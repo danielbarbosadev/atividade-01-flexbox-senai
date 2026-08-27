@@ -1,0 +1,58 @@
+div
+{
+    background-color: aqua;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+img
+{
+    height: 40px;
+}
+
+span
+{
+    background-color: yellow;
+    display: flex;
+    width: fit-content;
+}
+
+.space-between
+{
+    justify-content: space-between;
+}
+
+.space-between-span
+{
+    
+    justify-content: space-between;
+    width: 200px;
+}
+.group-pink
+{
+    justify-content: space-between;
+    background-color: rgb(226, 168, 253);
+    margin-bottom: 0px;
+}
+
+.space-around
+{
+    justify-content: space-around;
+}
+
+.flex-end
+{
+    justify-content: flex-end;
+}
+
+.column 
+{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.column img
+{
+    width: fit-content;
+}
